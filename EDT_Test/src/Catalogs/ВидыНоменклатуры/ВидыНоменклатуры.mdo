@@ -73,6 +73,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f9d92ed5-0723-4e78-8e59-41b5846be08e">
+    <name>ИспользоватьСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать серии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4482e1ec-99ec-4bc1-95d4-89988a46a754">
     <name>ФормаЭлемента</name>
     <synonym>
