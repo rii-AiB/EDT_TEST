@@ -30,5 +30,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <documents>Document.ПоступлениеНоменклатуры</documents>
 </mdclass:Configuration>

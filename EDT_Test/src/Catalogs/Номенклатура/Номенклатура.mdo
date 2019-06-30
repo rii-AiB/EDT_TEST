@@ -78,6 +78,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6ad6f2f6-912a-4abd-b35b-1499d6404304">
+    <name>ВидНоменлкатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенлкатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f1dfb6a8-6385-4fcd-ba0f-14097e1e487a">
     <name>ФормаЭлемента</name>
     <synonym>

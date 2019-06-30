@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5b96f12-a826-41c8-ae3b-0763e9babd34">
+  <producedTypes>
+    <objectType typeId="fe341018-513b-490b-bcd0-a71f3651d3ef" valueTypeId="4eae888d-a447-4037-a7b2-7d4050c5a8b8"/>
+    <refType typeId="3cab7f9b-8184-4cfc-8b2c-bdfd19fe7183" valueTypeId="0b1043e0-447f-44c6-b4bf-d7d10ad83167"/>
+    <selectionType typeId="13fb5149-531f-4b43-8f28-15c9b50fd5a2" valueTypeId="3cc15130-52a2-4936-9eff-d0dcb6bc3983"/>
+    <listType typeId="04ff3e46-036d-4307-a885-c2bd7d2e225a" valueTypeId="476f3b64-424d-4f84-9f46-0aad2eb1cc96"/>
+    <managerType typeId="fde68afd-a17a-4288-b962-212ff904cda9" valueTypeId="940132ea-6065-4f58-bc7c-0b8074673598"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="55407654-5b05-40e5-b1a7-1f3043efb035">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67fd7066-e877-4212-a8f2-3ad54a9f8036">
+    <name>ЕдинициИзмеренияДляОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единици измерения для отчетов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="079433ca-6087-43ef-ba60-96c41a01eaee">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
