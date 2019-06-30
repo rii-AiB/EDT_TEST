@@ -32,4 +32,5 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <documents>Document.ПоступлениеНоменклатуры</documents>
+  <documents>Document.РеализацияНоменклатуры</documents>
 </mdclass:Configuration>
