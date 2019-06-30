@@ -73,6 +73,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="af84e499-caf5-44dc-b331-847d1999ce7c">
+    <name>АлкогольнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алкогольная продукция</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4482e1ec-99ec-4bc1-95d4-89988a46a754">
     <name>ФормаЭлемента</name>
     <synonym>
